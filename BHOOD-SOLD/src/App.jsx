@@ -7,6 +7,7 @@ import Show from "./Components/Show"
 import { useState, useEffect } from "react"
 import SweatShirt from "./Pages/SweatShirt"
 import Sweat from "./Pages/Sweat"
+import {createBrowserRouter , RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home'
 import FAQ from './Pages/FAQ'
 
@@ -35,9 +36,26 @@ useEffect(() => {
 
 }, [])
 
+const router = createBrowserRouter([
+  {
+    path : "/" ,
+    element : <Home pictures={pictures}/>
+  },
+
+  {
+    path : "/FAQ" ,
+    element : <FAQ/>
+  },
+
+  {
+    path : "/Products" ,
+    element : <Sweat items={items} />
+  }
+])
+
 
     return(<>
-    <Home pictures={pictures}/>
+     <RouterProvider router={router}/>
     </>
  )
 }
