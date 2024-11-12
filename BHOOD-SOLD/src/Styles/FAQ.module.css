@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.35fr 0.65fr;
+    grid-template-rows: 1;
+    background-color:rgb(167, 167, 167) ;
+    
+}
+
+.Topics{
+    position: relative;
+    height: auto;
+}
+
+.Text{
+    height: auto;
+    width: auto;
+    position: absolute;
+    top: 75px;
+    left: 15%;
+}
+
+.Heading{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.Body{
+    font-size: 20px;
+}
+
+.paragraph{
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.Questions-Answers{
+    height: auto;
+    width: 65vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 37.5px;
+}
+
+.Questions{
+    padding-top: 37.5px;
+}
+
+.General , .Shipping{
+    width: 85%;
+}
+
+.Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 0.5px solid gray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.Area{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.Section:not(.Title):hover{
+    cursor: pointer;
+}
+
+.Title{
+    font-size: 30px;
+}
+
+.Plus{
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.Horizontal{
+    width: 3px;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    right: 13.5px;
+}
+
+.Vertical{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 13.5px;
+    right: 0;
+}
+
+p{
+    color: black;
+}
+
+.Plus[bounce1='1'] , .Plus[rebound1='1'] ,.Plus[spring1='1'], .Plus[bounce2='1'] , .Plus[rebound2='1']  ,.Plus[spring2='1']  {
+    animation-duration: 1s;
+    animation-name: Up;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+  }
+
+.Horizontal[rotate1='1'] , .Horizontal[spin1='1'] , .Horizontal[pivot1='1'], .Horizontal[rotate2='1'] , .Horizontal[spin2='1'] , .Horizontal[pivot2='1'] {
+    animation-duration: 1s;
+    animation-name: Return;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+  }
+
+.Horizontal[rotate1='0'] ,.Horizontal[spin1='0'] , .Horizontal[pivot1='0'], .Horizontal[rotate2='0'] ,.Horizontal[spin2='0'] , .Horizontal[pivot2='0']{
+    animation-duration: 1s;
+    animation-name: Turn;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+  }
+
+  
+@keyframes Turn {
+      100% {
+        transform: rotate(90deg);
+        width: 0px;
+      }
+  }
+
+  @keyframes Return {
+    0% {
+        transform: rotate(90deg);
+      }
+    
+    100% {
+      transform: rotate(0deg);
+      width: 3px;
+    }
+}
+
+@keyframes Up{
+    50%{
+        transform: scale(1.3 ,1.3);
+    }
+
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+.Answer{
+    padding: 10px;
+    height: auto;
+    background-color: rgb(182, 181, 181);
+    font-size: 20px;
+}
+
+.Answer[rotate1='0'], .Answer[spin1='0'], .Answer[pivot1='0'], .Answer[rotate2='0'], .Answer[spin2='0'], .Answer[pivot2='0'] {
+    animation-duration: 1s;
+    animation-name: Appear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+
+
+@keyframes Appear{
+    0%{
+        transform: scale(0,0);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+.Answer p{
+    padding-left: 5px;
+}

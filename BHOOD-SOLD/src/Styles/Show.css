@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.Container{
+    width: 100vw;
+    height: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.Product{
+    width: 25%;
+    height: 70vh;
+}
+
+.Product:hover{
+    border: 0.3px solid black;
+}
+
+
+
+.Img{
+    height: 85%;
+    width: 100%;
+    position: relative;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.Details{
+    height: 15%;
+    width: 100%;
+    padding-left: 2%;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 15;
+    padding-top: 5px;
+}
+
+p{
+    font-size: 18px;
+    padding-top: 3px;
+    color: rgb(66, 65, 65);
+}
+
+.FaHeart{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+.Red{
+    color: red;
+}
+
+.White{
+    color: white;
+}

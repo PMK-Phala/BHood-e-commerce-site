@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.Photo{
+    position: fixed;
+    top: 0;
+    padding-top: 1rem;
+    width: 100vw;
+    height: 100vh; 
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.783);
+    overflow: hidden;
+}
+
+.FaTimes{
+    position: fixed;
+    right: 3%;
+    height: 3em;
+    width: 3em;
+    color: white;
+    z-index: 2;
+    cursor: pointer;
+}

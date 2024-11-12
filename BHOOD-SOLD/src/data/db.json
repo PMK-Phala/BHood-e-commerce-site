@@ -1,0 +1,57 @@
+{
+    "Items":[
+
+        {"id" : 1 , "title": "Sportswear Club Fleece" ,"price":"R450", "category":"SweatShirt" ,"checked":false ,"gender":"male", "image1":"../public/Items/SweatShirt/sweatshirt m1.jpg" , "image2":"../public/Items/SweatShirt/sweatshirt m1.2.jpg" },
+        {"id" : 2 , "title": "Running Dog Sweatshirt" ,"price":"R550", "category":"SweatShirt" ,"checked":false,"gender":"male", "image1":"../public/Items/SweatShirt/sweatshirt m2.jpg" , "image2":"../public/Items/SweatShirt/sweatshirt m2.2.jpg"},
+        {"id" : 3 , "title": "Construction Sweatshirt" ,"price":"R458", "category":"Sweatshirt" ,"checked":false,"gender":"male", "image1":"../public/Items/SweatShirt/sweatshirt m3.jpg" , "image2":"../public/Items/SweatShirt/sweatshirt m3.2.jpg"},
+        {"id" : 4 , "title": "Fade Essential Sweatshirt" ,"price":"R560" ,"category":"SweatShirt" ,"checked":false,"gender":"male", "image1":"../public/Items/SweatShirt/sweatshirt m4.jpg" , "image2":"../public/Items/SweatShirt/sweatshirt m4.2.jpg"},
+        {"id" : 5 , "title": "Core Sweatshirt" ,"price":"R483", "category":"Sweatshirt" ,"checked":false,"gender":"female", "image1":"../public/Items/SweatShirt/sweatshirt f1.jpg" , "image2":"../public/Items/SweatShirt/sweatshirt f1.2.jpg"},
+        {"id" : 6 , "title": "LostLove" ,"price":"R567", "category":"SweatShirt" ,"checked":false,"gender":"female", "image1":"../public/Items/SweatShirt/sweatshirt f2.jpg" , "image2":"../public/Items/SweatShirt/sweatshirt f2.2.jpg"},
+        {"id" : 7 , "title": "Forever Teen" ,"price":"R399.99", "category":"SweatShirt" ,"checked":false,"gender":"female", "image1":"../public/Items/SweatShirt/sweatshirt f3.jpg" , "image2":"../public/Items/SweatShirt/sweatshirt f3.2.jpg"},
+        {"id" : 8 , "title": "9X Girl" ,"price":"R658", "category":"SweatShirt" ,"checked":false,"gender":"female", "image1":"../public/Items/SweatShirt/sweatshirt f4.jpg" , "image2":"../public/Items/SweatShirt/sweaatshirt f4.2.jpg"},
+        {"id" : 9 , "title": "Intention" ,"price":"R757.99", "category":"SweatShirt" ,"checked":false,"gender":"female", "image1":"../public/Items/SweatShirt/sweatshirt f5.jpg" , "image2":"../public/Items/SweatShirt/sweatshirt f5.2.jpg"},
+
+        {"id" : 10 , "title": "North-Face Blue Beanie" ,"price":"R129.99", "category":"Beanie" ,"checked":false,"gender":"Unisex", "image1":"./public/Items/Beanie/beanie u1.jpg" , "image2":"./public/Items/Beanie/beanie u1.2.jpg"},
+        {"id" : 11 , "title": "K-Way Snow Beanie" ,"price":"R140", "category":"Beanie" ,"checked":false,"gender":"Unisex", "image1":"./public/Items/Beanie/beanie u2.jpg" , "image2":"../public/Items/Beanie/beanie u2.2.jpg"},
+        {"id" : 12 , "title": "K-way Black Beanie" ,"price":"R89.99", "category":"Beanie" ,"checked":false,"gender":"Unisex", "image1":"./public/Items/Beanie/beanie u3.jpg" , "image2":"../public/Items/Beanie/beanie u3.2.jpg"},
+        {"id" : 13 , "title": "North-Face Wood Beanie" ,"price":"R125", "category":"Beanie" ,"checked":false,"gender":"Unisex", "image1":"./public/Items/Beanie/beanie u4.jpg" , "image2":"./public/Items/Beanie/beanie u4.2.jpg"},
+        {"id" : 14 , "title": "Stance Beanie" ,"price":"R124.99", "category":"Beanie" ,"checked":false,"gender":"Unisex", "image1":"./public/Items/Beanie/beanie u5.jpg" , "image2":"../public/Items/Beanie/beanie u5.2.jpg"},
+        {"id" : 15 , "title": "K-Way 2Tone Beanie" ,"price":"R90", "category":"Beanie" ,"checked":false,"gender":"Unisex", "image1":"./public/Items/Beanie/beanie u6.jpg" , "image2":"../public/Items/Beanie/beanie u6.2.jpg"},
+        {"id" : 16 , "title": "K-WAY RasBerry Beanie" ,"price":"R99.99", "category":"Beanie Kids" ,"checked":false,"gender":"Unisex", "image1":"./public/Items/Beanie/benie k1.jpg" , "image2":"../public/Items/Beanie/beanie k1.2.jpg"},
+
+        {"id" : 17 , "title": "B&W Striped" ,"price":"R170", "category":"T-Shirt" ,"checked":false,"gender":"male", "image1":"./public/Items/T-Shirt/t-shirt m1.jpg" , "image2":"./public/Items/T-Shirt/t-shirt m1.2.jpg"},
+        {"id" : 18 , "title": "Polo browny" ,"price":"R349.99", "category":"T-Shirt" ,"checked":false,"gender":"male", "image1":"./public/Items/T-Shirt/t-shirt m2.jpg" , "image2":"./public/Items/T-Shirt/t-shirt m2.2.jpg"},
+        {"id" : 19 , "title": "Golfer Top" ,"price":"R390", "category":"T-Shirt" ,"checked":false,"gender":"male", "image1":"./public/Items/T-Shirt/t-shirt m3.jpg" , "image2":"./public/Items/T-Shirt/t-shirt m3.3.jpg"},
+        {"id" : 20 , "title": "Stripped Tee" ,"price":"R170", "category":"T-Shirt" ,"checked":false,"gender":"male", "image1":"./public/Items/T-Shirt/t-shirt m4.jpg" , "image2":"./public/Items/T-Shirt/t-shirt m4.2.jpg"},
+        {"id" : 21 , "title": "Kids Vans Tee" ,"price":"R89.99", "category":"T-Shirt Kids" ,"checked":false,"gender":"male", "image1":"./public/Items/T-Shirt/t-shirt k1.jpg" , "image2":"./public/Items/T-Shirt/t-shirt k1.2.jpg"},
+        {"id" : 22 , "title": " W B&W Striped" ,"price":"R179", "category":"T-Shirt" ,"checked":false,"gender":"female", "image1":"./public/Items/T-Shirt/t-shirt f1.jpg" , "image2":"./public/Items/T-Shirt/t-shirt f1.2.jpg"},
+        {"id" : 23 , "title": "Jaguar Crop Top" ,"price":"R129.99", "category":"T-Shirt" ,"checked":false,"gender":"female", "image1":"./public/Items/T-Shirt/t-shirt f2.jpg" , "image2":"./public/Items/T-Shirt/t-shirt f2.2.jpg"},
+        {"id" : 24 , "title": "Brown Tee" ,"price":"R89.99", "category":"T-Shirt" ,"checked":false,"gender":"female", "image1":"./public/Items/T-Shirt/t-shirt f3.jpg" , "image2":"./public/Items/T-Shirt/t-shirt f3.2.jpg"},
+        {"id" : 25 , "title": "Shoulder Tee" ,"price":"R140", "category":"T-Shirt" ,"checked":false,"gender":"female", "image1":"./public/Items/T-Shirt/t-shirt f4.jpg" , "image2":"./public/Items/T-Shirt/t-shirt f4.2.jpg"},
+        {"id" : 26 , "title": "White Tee" ,"price":"R180", "category":"T-Shirt" ,"checked":false,"gender":"female", "image1":"./public/Items/T-Shirt/t-shirt f5.jpg" , "image2":"./public/Items/T-Shirt/t-shirt f5.2.jpg"},
+        {"id" : 27 , "title": "Kids Vans Tee" ,"price":"R89.99", "category":"T-Shirt Kids" ,"checked":false,"gender":"male", "image1":"./public/Items/T-Shirt/t-shirt k2.jpg" , "image2":"./public/Items/T-Shirt/t-shirt k2.2.jpg"},
+
+        {"id" : 28 , "title": "B Guess Trackie" ,"price":"R699.99", "category":"TrackSuit" ,"checked":false,"gender":"male", "image1":"./public/Items/TrackSuit/tracksuit m1.jpg" , "image2":"./public/Items/TrackSuit/tracksuit m1.2.jpg"},
+        {"id" : 29 , "title": "W Guess Trackie" ,"price":"R699.99", "category":"TrackSuit" ,"checked":false,"gender":"male", "image1":"./public/Items/TrackSuit/tracksuit m2.jpg" , "image2":"./public/Items/TrackSuit/tracksuit m2.2.jpg"},
+         {"id" : 30 , "title": "LiverPool TS" ,"price":"R749.99", "category":"TrackSuit" ,"checked":false,"gender":"male", "image1":"./public/Items/TrackSuit/tracksuit m3.jpg" , "image2":"./public/Items/TrackSuit/tracksuit m3.2.jpg"},
+        
+         {"id" : 31 , "title": "Rose Pink" ,"price":"R450", "category":"TrackSuit" ,"checked":false,"gender":"female", "image1":"./public/Items/TrackSuit/tracksuit f1.jpg" , "image2":"./public/Items/TrackSuit/tracksuit f1.2.jpg"},
+        {"id" : 32 , "title": "Jaguar Style" ,"price":"R630", "category":"TrackSuit" ,"checked":false,"gender":"female", "image1":"./public/Items/TrackSuit/tracksuit f2.jpg" , "image2":"./public/Items/TrackSuit/tracksuit f2.2.jpg"},
+        {"id" : 33 , "title": "Flashy Trackie" ,"price":"R550", "category":"TrackSuit" ,"checked":false,"gender":"female", "image1":"./public/Items/TrackSuit/tracksuit f3.jpg" , "image2":"./public/Items/TrackSuit/tracksuit f3.2.jpg"},
+        {"id" : 34 , "title": "Adidas Tracksuit" ,"price":"R700", "category":"TrackSuit" ,"checked":false,"gender":"female", "image1":"./public/Items/TrackSuit/tracksuit f4.jpg" , "image2":"./public/Items/TrackSuit/tracksuit f4.2.jpg"},
+        {"id" : 35 , "title": "Homme Comfort" ,"price":"R650", "category":"TrackSuit" ,"checked":false,"gender":"UniSex", "image1":"./public/Items/TrackSuit/tracksuit u1.jpg" , "image2":"./public/Items/TrackSuit/tracksuit u1.2.jpg"}
+    ],
+
+    "Pictures":
+        {
+        "Images":[
+            {"image1":"./public/Items/Carousel Images/BHOOD-C1.jpg"},
+            {"image1":"./public/Items/Carousel Images/BHOOD-C2.jpg"},
+            {"image1":"./public/Items/Carousel Images/BHOOD-C3.jpg"},
+            {"image1":"./public/Items/Carousel Images/BHOOD-C4.jpg"},
+            {"image1":"./public/Items/Carousel Images/BHOOD-C5.jpg"}
+        ]
+    }
+
+}
+

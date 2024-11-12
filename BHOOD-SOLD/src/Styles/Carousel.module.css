@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+article{
+    position: relative;
+    padding-top: 30px;
+    height: 80vh;
+    width: 100vw;
+    
+}
+
+.Categories-Header{
+    left: 35px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+
+.Categories-FontAwesome{
+    position: absolute;
+    top: 0;
+    right: 33px;
+}
+
+.FontAwesome-Categories{
+width: 35px;
+height: 35px;
+background-color: rgb(219, 212, 212);
+color: rgb(63, 58, 58);
+border-radius: 50%;
+}
+
+.Category-Content{
+    height: auto;
+    width: 170vw;
+    display: flex;
+    gap: 9px;
+    position: absolute;
+    
+}
+
+.Image{
+    height: 70vh;
+    width: 32vw;
+    position: relative;
+}
+
+.Image-Text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 11%;
+    background-color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.Image-Text:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.Image img{
+    height: 100%;
+    width: 100%;
+}

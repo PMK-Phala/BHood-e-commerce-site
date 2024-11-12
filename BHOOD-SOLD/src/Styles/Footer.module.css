@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Footer-Container{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+
+
+.Box{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Box:not(.QuickLinks){
+    border-right: 0.5px solid rgb(152, 149, 149);
+}
+
+.Box h1{
+    padding-bottom: 10%;
+}
+
+.Section{
+    height: 30%;
+}
+
+.Section:not(.Location){
+    display: flex;
+    align-items: center;
+}
+
+span{
+    display: flex;
+    gap: 10px;
+}
+
+.FontAwesome{
+    color: rgb(167, 167, 167);
+
+}
+
+p, a  {
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ .Route-Text{
+    text-decoration: none;
+}
+
+.Route-Text:hover{
+    color: blue;
+    
+}
+
+.Route-Text:visited{
+    color: blue;
+}
+
+.Email , .Phone{
+    text-align: 45px;
+    gap: 10px;
+}

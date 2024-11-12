@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Product-Snippet{
+    display: flex;
+    overflow-x: hidden;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 40px;
+}
+
+ .Display-Items{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 5px;
+} 
+
+.Product{
+    height: 50vh;
+    width: 23vw;
+}
+
+.Image{
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+}
+
+.HoverImage{
+    position: relative;
+}
+
+.Image img{
+    width: 100%;
+    height: 100%;
+}
+
+.Buy-Item{
+     background-color:white;
+     color: black;
+     position:absolute ;
+     top:40% ;
+     right:30%;
+     height: 30px;
+     width: 130px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.Buy-Item:hover{
+    color: white;
+    background-color: rgb(24, 24, 24);
+}
+
+.Image-details{
+    height: 20%;
+    width: 100%;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.Main-Image{
+    width: 50%;
+    height: 100%;
+}
+
+.Main-Image img{
+    width: 100%;
+    height: 100vh;
+}

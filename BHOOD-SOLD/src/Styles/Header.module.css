@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.Header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 0.4rem;
+    height: 9vh;
+    width: 100vw;
+    font-family: 'Dm Sans' , sans-serif;
+}
+
+.Nav-Item{
+    position: relative;
+    cursor: pointer;
+    height: 5.5vh;
+    background-color: white;
+    color: black;
+    z-index: 1;
+    font-size: 24px;
+}
+
+.Nav-Item::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    height: 0.5vh;
+    z-index: -1;
+}
+
+.Nav-Item:hover:before, .Nav-Item:focus::before{
+    transform: scaleX(1);
+}
+
+
+

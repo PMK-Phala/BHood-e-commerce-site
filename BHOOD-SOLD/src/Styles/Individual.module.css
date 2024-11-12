@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Dm Sans' , sans-serif;
+    padding-left: 1%;
+}
+
+.product-image{
+    width: 60vw;
+    display: grid;
+    grid-template-areas:"a a"
+                        "b c" ;
+    cursor: pointer;
+}
+
+ .bhood-1{
+    grid-area:a;
+}
+
+.bhood-2{
+    grid-area:b;
+}
+
+.bhood-3{
+    grid-area:c;
+}
+
+.Product-Description{
+    width: 40%;
+    padding: 6% 4% 0 1% ;
+}
+
+.Product-Heading{
+    word-spacing: 4px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.Product-Price{
+    color: rgb(198, 196, 196);
+    padding-top: 1vh;
+    font-weight: 300;
+    letter-spacing: .04em;
+    font-size: 18px;
+    
+}
+
+ .Size-Heading{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+} 
+
+.Size-Heading h4{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.Size-Chart{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.Size{
+    width: 25%;
+    border: 0.7px solid black;
+    border-radius: 0%;
+    text-align: center;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.Size:hover{
+    text-decoration: line-through;
+    background-color: black;
+    color: white;
+}
+
+.Sold-Out{
+    width: 100%;
+    overflow: hidden;
+}
+
+.Sold-Out-Text{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+    animation: RightToLeft 10s infinite linear;
+    overflow: hidden;
+    color: rgb(255, 5, 5);
+}
+
+@keyframes  RightToLeft {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+}
+
+.Add{
+    width: 100%;
+    height: 2.8rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.Add-1{
+    width: 93%;
+    height: 93%;
+    position: absolute;
+    border: 0.6px solid black;
+    bottom: 0;
+    right: 6%;
+}
+
+.Add-2{
+    width: 93%;
+    height: 93%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    line-height: 293%;
+    border: 0.6px solid black;
+}
+
+.Add-2:hover{
+    background-color: white;
+    color: black;
+}
+
+.Extra-Info{
+    display: flex;
+    gap: 3%;
+}
+
+.Detailed{
+    border-top: 0.8px solid gray ;
+    border-bottom: 0.8px solid gray ;  
+    width: 100%;
+    cursor: pointer;
+}
+
+.Detailed-Header{
+    height: 4rem;
+    line-height: 4rem;
+    position: relative;
+} 
+
+.Detailed h2{
+    position: absolute;
+    left: 0;
+}
+
+.FaAngleUp {
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+
+.FaAngleDown {
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
+
+.Size-Table{
+    position: fixed;
+    top: 7%;
+    left: 30%;
+    height: 75vh;
+    width: 40vw; 
+}
+
+.FaTimes-Table{
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.Table-Heading{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.Table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 100%;
+    position: absolute;
+    top: 4%;
+    left: 0;
+}
+
+table{
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: black;
+    color: white;
+}
+
+tr{
+    text-align: center;
+}
+
+td:nth-child(2){
+    background-color: rgb(238, 247, 255);
+}
+
+td:nth-child(odd){
+    background-color: white;
+}
+
+.Table-Footer{
+    position: absolute;
+    bottom: -6%;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+}
