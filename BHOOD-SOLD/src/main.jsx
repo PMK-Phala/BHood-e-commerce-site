@@ -9,10 +9,6 @@ import Header from './Components/Header'
 import Sweat from './Pages/Sweat'
 
 
-
-  
-
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
    <App/>

@@ -47,5 +47,11 @@ const router = createBrowserRouter([
   ])
 
 
+  <Carousel Category1={"SweatShirt"} Category2={"T-Shirt"} Category3={"TrackSuit"} Category4={"Essentials"} Category5={"Bennies"} pictures={pictures}/>
+  <ProductSnippet/>
+  <Carousel/>
+  <Footer/>
+
+
 
   

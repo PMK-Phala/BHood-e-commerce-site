@@ -7,9 +7,10 @@ import Show from "./Components/Show"
 import { useState, useEffect } from "react"
 import SweatShirt from "./Pages/SweatShirt"
 import Sweat from "./Pages/Sweat"
-import {createBrowserRouter , RouterProvider } from 'react-router-dom'
+import {createBrowserRouter , RouterProvider, Route, createRoutesFromElements } from 'react-router-dom'
 import Home from './Pages/Home'
 import FAQ from './Pages/FAQ'
+import RootLayout from "./Layouts/RootLayout"
 
 function App() {
 
@@ -36,7 +37,7 @@ useEffect(() => {
 
 }, [])
 
-const router = createBrowserRouter([
+const route = createBrowserRouter([
   {
     path : "/" ,
     element : <Home pictures={pictures}/>
@@ -53,9 +54,18 @@ const router = createBrowserRouter([
   }
 ])
 
+const router = createBrowserRouter(createRoutesFromElements(
+  <Route path="/" element={<RootLayout/>} >
+    <Route index element={ <Home pictures={pictures}/>} />
+    <Route path="FAQ" element={<FAQ/>}/>
+    <Route path="Products" element={ <Sweat items={items} />}/>
+
+  </Route>
+))
+
 
     return(<>
-     <RouterProvider router={router}/>
+    <RouterProvider router={router}/>
     </>
  )
 }

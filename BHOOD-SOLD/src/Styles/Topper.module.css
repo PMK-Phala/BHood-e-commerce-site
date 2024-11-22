@@ -16,6 +16,8 @@
     width: 55vw;
     height: 80vh;
     position: relative;
+    background-image: url("/bhood images/Top - Copy/1 (2).jpg");
+    background-size: 100% 100%;
 }
 
 .First-Image-Text{
@@ -24,6 +26,16 @@
     left: 2%;
     color: white;
     display: flex;
+}
+
+.BHood{
+    font-weight: 400;
+}
+
+.SS{
+    height: 40px;
+    line-height: 40px;
+    padding: 5px;
 }
 
 .Add{
@@ -37,7 +49,7 @@
 }
 
 .Add-1{
-    width: 75%;
+    width: 142px;
     height: 80%;
     position: absolute;
     bottom: 0;
@@ -47,10 +59,8 @@
 }
 
 .Add-2{
-    width: 75%;
+    width: 140px;
     height: 90%;
-    line-height: 230%;
-    text-align: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -59,6 +69,7 @@
     border: 0.6px solid white;
     display: flex;
     position: relative;
+    align-items: center;
 }
 
 .FaArrowRight{
@@ -83,7 +94,7 @@
 }
 
 .Women-Box1{
-    width: 83%;
+    width: 196px;
     height: 80%;
     position: absolute;
     bottom: 0;
@@ -93,10 +104,8 @@
 }
 
 .Women-Box2{
-    width: 83%;
+    width: 194px;
     height: 90%;
-    line-height: 230%;
-    text-align: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -105,6 +114,7 @@
     border: 0.6px solid white;
     display: flex;
     position: relative;
+    align-items: center;
 }
 
 .FaArrowRight{
@@ -122,4 +132,82 @@
     width: 45vw;
     height: 80vh;
     overflow: hidden;
-} 
+    background-image: url("/bhood images/Top - Copy/untitled-video-made-with-clipchamp_deWMx5rA.gif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:450px){
+    .First-Image{
+        width: 100%;
+    }
+    
+    .Second-Image{
+        display: none;
+    }
+}
+
+@media (max-width:300px){
+    
+    .Add-1{
+        width: 112px;
+    }
+
+    .Add-2{
+        width: 110px;
+        font-size: 13px
+    }
+    
+    .Women-Box1{
+        width: 166px;
+    }
+
+    .Women-Box2{
+        width: 164px;
+        font-size: 16px;
+    }
+
+    .FaArrowRight{
+        display: none;
+    }
+}
+
+@media (max-width:240px){
+
+    .SS{
+        display: none;
+    }
+
+    .Add-1{
+        width: 90px;
+    }
+
+    .Add-2{
+        width: 92px;
+        font-size: 10px;
+    }
+
+    .Women-Box1{
+        width: 126px;
+        font-size: 10px;
+    }
+
+    .Women-Box2{
+        width: 124px;
+        font-size: 10px;
+    }
+}
+
+@media(max-height:453px){
+    .First-Image{
+        height: 100vh;
+    }
+
+    .Second-Image{
+        height: 100vh;
+    }
+
+    .Shop-Women{
+        top: 69%;
+    }
+}

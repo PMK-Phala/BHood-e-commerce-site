@@ -8,13 +8,8 @@ import ScrollBack from "../Components/ScrollBack"
 const Home=( {pictures})=>{
     return(
         <>
-        <ScrollBack/>
-        <Header/>
         <Topper/>
-        <Carousel Category1={"SweatShirt"} Category2={"T-Shirt"} Category3={"TrackSuit"} Category4={"Essentials"} Category5={"Bennies"} pictures={pictures}/>
-        <ProductSnippet/>
-        <Carousel/>
-        <Footer/>
+        <Carousel Category1={"Jumpers"} Category2={"T-Shirt"} Category3={"TrackSuit"} Category4={"Essentials"} Category5={"Bennies"} pictures={pictures}/>
         </>
     )
 }

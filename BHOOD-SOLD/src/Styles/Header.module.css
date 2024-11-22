@@ -1,41 +1,208 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-.Header{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-bottom: 0.4rem;
-    height: 9vh;
-    width: 100vw;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Dm Sans' , sans-serif;
 }
 
-.Nav-Item{
-    position: relative;
-    cursor: pointer;
-    height: 5.5vh;
-    background-color: white;
-    color: black;
+.Container{
+    width: 100vw;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2%;
+    position: sticky;
+    top: 0;
     z-index: 1;
-    font-size: 24px;
+    background-color: white;
 }
 
-.Nav-Item::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
-    transition: transform 300ms ease-in-out;
-    transform: scaleX(0);
-    height: 0.5vh;
-    z-index: -1;
+.Logo{
+    width: 15%;
+    height: 80px;
 }
 
-.Nav-Item:hover:before, .Nav-Item:focus::before{
-    transform: scaleX(1);
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.Nav-Container{
+    height: 80px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav-Text{
+    font-weight: 700;
+}
+
+.Search{
+    width: 300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5%;
 }
 
 
+.Search-Bar{
+    width: 60%;
+    height: 50%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 15px;
+    display: flex;
+    border: 0.5px solid gray;
+}
 
+.Icon-Container{
+    height: 100%;
+    width: 13%;
+    display: flex;
+    align-items: center;
+}
+
+.Searh-Icon{
+    height: 70%;
+    width: 100%;
+}
+
+#Input{
+    height: 100%;
+    width: 80%;
+    padding-left: 10px;
+    border: none;
+}
+
+#Input:focus{
+    outline:none;
+}
+
+.Cart , .Heart{
+    width: 22px;
+    height: 50%;
+}
+
+.FaCart, .FaHearts{
+    width: 100%;
+    height: 100%;
+}
+
+.Burger-Container{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+}
+
+.Try{
+    display: flex;
+}
+
+.BurgerBar{
+    width: 20px;
+    height: 20px;
+}
+
+.Short{
+    min-height: 100vh ;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4%;
+    background-color: whitesmoke;
+}
+
+.Close{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.X{
+    height: 100%;
+    width: auto;
+}
+
+.Short-Search{
+    width: 100%;
+    height: 40px;
+    display: none;
+}
+
+
+.Content{
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid gray;
+}
+
+.Text{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Logo, .Nav-Text, .Icon-Container, .Cart,.Heart, .BurgerBar, .X, .Text {
+    cursor: pointer;
+}
+
+@media (max-width:866px){
+    .Nav-Container{
+        display: none;
+    }
+
+}
+
+@media (min-width:866px){
+    .Burger-Menu{
+        display: none;
+    }
+}
+
+@media (max-width:479px){
+    
+    .Logo{
+        width: 60px;
+    }
+    
+    .Search{
+        width: auto;
+    }
+
+    .Search-Bar{
+        display: none;
+    }
+
+    .Short-Search{
+        display: block;
+    }
+
+}
+
+
+@media(max-width:350px){
+    .Short{
+        width: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+@media (max-height:471px){
+    .Short{
+        overflow-y: scroll;
+    }
+}
